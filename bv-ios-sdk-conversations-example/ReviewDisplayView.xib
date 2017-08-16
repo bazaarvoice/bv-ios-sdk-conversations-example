@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReviewDisplayViewController" customModule="bv_ios_sdk_conversations_example" customModuleProvider="target">
             <connections>
-                <outlet property="reviewsCollectionView" destination="OKR-Fo-ayt" id="x6e-My-ke8"/>
+                <outlet property="reviewsTableView" destination="rnu-HL-i9J" id="XCR-dE-shE"/>
                 <outlet property="view" destination="iN0-l3-epB" id="GeR-ZM-swN"/>
             </connections>
         </placeholder>
@@ -20,23 +20,17 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="OKR-Fo-ayt" customClass="BVReviewsCollectionView" customModule="bv_ios_sdk_conversations_example" customModuleProvider="target">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rnu-HL-i9J" customClass="BVReviewsTableView">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0vg-GU-V9W">
-                        <size key="itemSize" width="50" height="50"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                </collectionView>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="OKR-Fo-ayt" secondAttribute="bottom" constant="270" id="4dh-bv-Ql5"/>
-                <constraint firstAttribute="trailing" secondItem="OKR-Fo-ayt" secondAttribute="trailing" constant="68" id="SZ5-wY-ESR"/>
-                <constraint firstItem="OKR-Fo-ayt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="269" id="h9q-x1-Ann"/>
-                <constraint firstItem="OKR-Fo-ayt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="iih-gr-69l"/>
+                <constraint firstAttribute="bottom" secondItem="rnu-HL-i9J" secondAttribute="bottom" id="Dgb-Hg-Te1"/>
+                <constraint firstItem="rnu-HL-i9J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KiJ-FC-hMu"/>
+                <constraint firstItem="rnu-HL-i9J" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N2y-CD-loX"/>
+                <constraint firstAttribute="trailing" secondItem="rnu-HL-i9J" secondAttribute="trailing" id="w81-u2-aYO"/>
             </constraints>
             <point key="canvasLocation" x="26.5" y="51.5"/>
         </view>

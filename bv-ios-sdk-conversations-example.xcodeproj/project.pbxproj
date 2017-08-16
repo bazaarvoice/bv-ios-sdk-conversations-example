@@ -13,8 +13,8 @@
 		5F7F91871F4375AC0053FA28 /* ReviewSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */; };
 		5F7F918A1F4375FA0053FA28 /* ReviewDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */; };
 		5F7F918C1F4376090053FA28 /* ReviewSubmitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */; };
-		5F7F918F1F439F1C0053FA28 /* ReviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F918E1F439F1C0053FA28 /* ReviewCollectionViewCell.swift */; };
-		5F7F91911F439FBA0053FA28 /* ReviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91901F439FBA0053FA28 /* ReviewCollectionViewCell.xib */; };
+		5F7F91911F439FBA0053FA28 /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */; };
+		5F7F91931F4491D60053FA28 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */; };
 		5FDD43691F436B0700D6FA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD43681F436B0700D6FA54 /* AppDelegate.swift */; };
 		5FDD43701F436B0700D6FA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD436F1F436B0700D6FA54 /* Assets.xcassets */; };
 		5FDD437D1F436C2100D6FA54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD437C1F436C2100D6FA54 /* HomeViewController.swift */; };
@@ -30,8 +30,8 @@
 		5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewSubmitViewController.swift; sourceTree = "<group>"; };
 		5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewDisplayView.xib; sourceTree = "<group>"; };
 		5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewSubmitView.xib; sourceTree = "<group>"; };
-		5F7F918E1F439F1C0053FA28 /* ReviewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCollectionViewCell.swift; sourceTree = "<group>"; };
-		5F7F91901F439FBA0053FA28 /* ReviewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewCollectionViewCell.xib; sourceTree = "<group>"; };
+		5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
 		5FDD43651F436B0700D6FA54 /* bv-ios-sdk-conversations-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bv-ios-sdk-conversations-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDD43681F436B0700D6FA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FDD436F1F436B0700D6FA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 				5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */,
 				5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */,
 				5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */,
-				5F7F918E1F439F1C0053FA28 /* ReviewCollectionViewCell.swift */,
-				5F7F91901F439FBA0053FA28 /* ReviewCollectionViewCell.xib */,
+				5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */,
+				5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */,
 			);
 			name = reviews;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 				5F7F918C1F4376090053FA28 /* ReviewSubmitView.xib in Resources */,
 				5F7F918A1F4375FA0053FA28 /* ReviewDisplayView.xib in Resources */,
 				5FDD43701F436B0700D6FA54 /* Assets.xcassets in Resources */,
-				5F7F91911F439FBA0053FA28 /* ReviewCollectionViewCell.xib in Resources */,
+				5F7F91911F439FBA0053FA28 /* ReviewTableViewCell.xib in Resources */,
 				5F7F91821F4374230053FA28 /* bvsdk_config_staging.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,10 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F7F91851F4375430053FA28 /* ReviewDisplayViewController.swift in Sources */,
+				5F7F91931F4491D60053FA28 /* ReviewTableViewCell.swift in Sources */,
 				5FDD43811F436D9D00D6FA54 /* DemoUINavigationController.swift in Sources */,
 				5FDD43691F436B0700D6FA54 /* AppDelegate.swift in Sources */,
 				5F7F91871F4375AC0053FA28 /* ReviewSubmitViewController.swift in Sources */,
-				5F7F918F1F439F1C0053FA28 /* ReviewCollectionViewCell.swift in Sources */,
 				5FDD437D1F436C2100D6FA54 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

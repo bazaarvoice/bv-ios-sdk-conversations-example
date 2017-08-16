@@ -1,7 +1,7 @@
 import UIKit
 import BVSDK
 
-class ReviewCollectionViewCell: BVReviewCollectionViewCell {
+class ReviewTableViewCell: BVReviewTableViewCell {
     @IBOutlet weak var reviewTitle : UILabel!
     @IBOutlet weak var reviewText : UILabel!
     
