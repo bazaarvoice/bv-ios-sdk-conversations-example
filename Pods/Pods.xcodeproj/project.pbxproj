@@ -113,6 +113,7 @@
 		4F30455B48A88385F1497A6BFB059D43 /* BVAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D720111C6593D40A2F56EFA57ED6CE /* BVAnswer.m */; };
 		4FDD65F9EEB8A801E688C122FBD6FE92 /* BVReviewsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 238B1C544D3625D130005F3FB129D165 /* BVReviewsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508946BF5FCAE1FD4395B388630D8A5C /* BVImpressionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E3F3DA4B626EB38BBE4C442F6D9877 /* BVImpressionEvent.m */; };
+		527CA7480FAC6053A38DDD6B2911E3D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52CFC6F8ECA990ED7F58216617F5D986 /* BVSubmittedFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 07504BFAF6E2B22871A202C34CA7B3DB /* BVSubmittedFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52DD7B0529BCEDD43F01C739B7EA6334 /* BVStoreReviewSubmission.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A4F2C8779F7DDC98C440FC1F9EA692 /* BVStoreReviewSubmission.m */; };
 		55A7956B7663EBAE47E12F9F6E56C0CD /* BVReviewFilterType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB7CCE3A68F936012E049BF925033F6 /* BVReviewFilterType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -238,6 +239,7 @@
 		B5604697E47E6A35AB0BAB100E83CF9D /* BVBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434352008798D36598B0E6ECE0EAC73 /* BVBadge.m */; };
 		B5DECC4437C7794312073EE1D2EE62F9 /* BVBulkStoreItemsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 698267A2FDE8DA8CE227B911BCFCD6DE /* BVBulkStoreItemsRequest.m */; };
 		B7D279B14C9C1A72A9878675226F74D2 /* BVReviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 833113143C5C029EB9DDCD4180347941 /* BVReviewCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D4BD6463D9659A7D67711EAED1114D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B8BAF997F650687AD6A5FAE8F90B83A0 /* BVSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDCEF8180A8007EFCAE96C5C8907110 /* BVSDKManager.m */; };
 		BB929CF3CB0C3ACD517896EEF3A7E15D /* BVQuestionsAndAnswersRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EE7B3DF203A29DA58D5DF4EA02B305 /* BVQuestionsAndAnswersRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD104520030302754948B70FDD4AC675 /* BVBaseConversationsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 61484A7D893D56C3AD29B4E81AF11B39 /* BVBaseConversationsResponse.m */; };
@@ -259,7 +261,6 @@
 		CA648C7DB88DD80D547CC98DAA6CA699 /* BVBrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B61B128CB7B348D137C7A8040FFF5A /* BVBrand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3F9F231CA44E4A4F4BFFE3AFD24F59 /* BVReviewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DA12EE00776DE599BD74DB63E58199B5 /* BVReviewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC3DEE5D373C9488D38B001AC6C627E3 /* BVCommentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466DFF0C05A0EB61CA0751EB418831B /* BVCommentsResponse.m */; };
-		CD6DBB7BC72DDA1F4964063AEFE9C762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CDC5A21F9659662D5924E7EBB44F0C53 /* BVViewsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4532F173A0B2F742282810481D2B89 /* BVViewsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0310ACE8667811B565988A9FEABAA88 /* BVReview.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BBE74CCDF76BCE93E5B31892110F52 /* BVReview.m */; };
 		D03838262C99643E880B73CB9C3FF23B /* BVPersonalizationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 665656BD425503BD892CB8A63DDB9E46 /* BVPersonalizationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -282,7 +283,6 @@
 		E1D9A1D38C38F3003ADAA5132EF03E4C /* BVQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A73A0D2AFB5AE72E8214C3390C0B361A /* BVQuestionTableViewCell.m */; };
 		E32D9DA2C2176C725D42424B540165FD /* BVSortOptionsComments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2046E9073A1AA4829AAF4197735B9440 /* BVSortOptionsComments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E33721122F4413A21DBAE00DBD4AE01C /* BVCommentSubmissionErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 969FFD957E310F3539DE281708834B76 /* BVCommentSubmissionErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4BDEE7317B198430C78BC60CCB369D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E53B22B2DA9DF999287DF03951E78A8D /* BVStoreIncludeContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 105B37E9F0E238F00F91ED1BD3F8891B /* BVStoreIncludeContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E570C61D0077A8A7743421C1F19748F0 /* BVSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC571ED0AF8D33EE3599BEC8023878A /* BVSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5AAED009619278C522CA0657ECE5FEF /* BVProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FFFE59F9E9E54346BB38B6D0A3C773 /* BVProduct.m */; };
@@ -463,6 +463,7 @@
 		63FDF3A06A43504502BF28D828998AAB /* Pods-bv-ios-sdk-conversations-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bv-ios-sdk-conversations-example-acknowledgements.plist"; sourceTree = "<group>"; };
 		656EF3F0C954E74ED1960A14D8C498C0 /* BVCommentsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVCommentsResponse.h; path = Pod/BVConversations/Display/Model/BVCommentsResponse.h; sourceTree = "<group>"; };
 		659A039261470FA6EF9D070E7FA40E0A /* BVRatingDistribution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BVRatingDistribution.m; path = Pod/BVConversations/Display/Model/BVRatingDistribution.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66559569F35094A20E6D3585C1463D3C /* BVFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVFilter.h; path = "Pod/BVConversations/Display/Sorting & Filtering/BVFilter.h"; sourceTree = "<group>"; };
 		665656BD425503BD892CB8A63DDB9E46 /* BVPersonalizationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVPersonalizationEvent.h; path = Pod/BVAnalytics/BVPixelEvents/BVPersonalizationEvent.h; sourceTree = "<group>"; };
 		674539C909F32F5E305E87B3E5A6C3F5 /* BVConversationsInclude.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BVConversationsInclude.m; path = Pod/BVConversations/Display/Model/BVConversationsInclude.m; sourceTree = "<group>"; };
@@ -604,7 +605,6 @@
 		CA7830F4BA5F8A0E396C16A88625D117 /* BVAnswerCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVAnswerCollectionViewCell.h; path = Pod/BVConversations/Views/Answers/BVAnswerCollectionViewCell.h; sourceTree = "<group>"; };
 		CB4532F173A0B2F742282810481D2B89 /* BVViewsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVViewsHelper.h; path = Pod/BVCommon/BVViewsHelper.h; sourceTree = "<group>"; };
 		CB817F112FB6B8AE4BB347846CDDFB00 /* BVReviewFilterType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BVReviewFilterType.m; path = "Pod/BVConversations/Display/Sorting & Filtering/BVReviewFilterType.m"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBB61C0FACDD426522F942A32A2DE5C2 /* BVAuthorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVAuthorResponse.h; path = Pod/BVConversations/Display/Model/BVAuthorResponse.h; sourceTree = "<group>"; };
 		CC6008244A5E3188F454317FC16D3585 /* BVReviewSubmissionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BVReviewSubmissionResponse.m; path = Pod/BVConversations/Submission/Review/BVReviewSubmissionResponse.m; sourceTree = "<group>"; };
 		CCDB1E0753E20F2458A8DC97DA15BF4E /* BVAnswerSubmissionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BVAnswerSubmissionResponse.h; path = Pod/BVConversations/Submission/Answer/BVAnswerSubmissionResponse.h; sourceTree = "<group>"; };
@@ -677,7 +677,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BDEE7317B198430C78BC60CCB369D1 /* Foundation.framework in Frameworks */,
+				B7D4BD6463D9659A7D67711EAED1114D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +685,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6DBB7BC72DDA1F4964063AEFE9C762 /* Foundation.framework in Frameworks */,
+				527CA7480FAC6053A38DDD6B2911E3D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -806,14 +806,6 @@
 			);
 			name = "Pods-bv-ios-sdk-conversations-example";
 			path = "Target Support Files/Pods-bv-ios-sdk-conversations-example";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -1094,9 +1086,17 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		DC05C32DCD6EB626BAEB9E06008301C7 /* Support Files */ = {
@@ -1337,7 +1337,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -1538,11 +1538,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1550,149 +1551,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		27E4C67A32E162E9530675FF000BE88A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08CE8F73C958ED49D26E062DAC410A30 /* BVSDK.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BVSDK/BVSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BVSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BVSDK/BVSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BVSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		797137A42F3F45A0DC8F3C1F0B7E8869 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F8107FE97E29A00F5A404A6D995C9AE /* Pods-bv-ios-sdk-conversations-example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-bv-ios-sdk-conversations-example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-bv-ios-sdk-conversations-example/Pods-bv-ios-sdk-conversations-example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_bv_ios_sdk_conversations_example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9959CE8225D21B2799CAD1C8A90BD5C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08CE8F73C958ED49D26E062DAC410A30 /* BVSDK.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BVSDK/BVSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BVSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BVSDK/BVSDK.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BVSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1721,10 +1586,11 @@
 			};
 			name = Debug;
 		};
-		DFA9DE2DA96508B22B3C9AE8CC548C17 /* Debug */ = {
+		4576761561A99B202F3CD2F55341D79D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 723327717AFD643A186F7C6FC233182B /* Pods-bv-ios-sdk-conversations-example.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1756,14 +1622,160 @@
 			};
 			name = Debug;
 		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		894463052287BC30919C1FD3EF62DACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CE8F73C958ED49D26E062DAC410A30 /* BVSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BVSDK/BVSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BVSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BVSDK/BVSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BVSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C6C84CF75E079D5633E0576B1A91A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CE8F73C958ED49D26E062DAC410A30 /* BVSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BVSDK/BVSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BVSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BVSDK/BVSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BVSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE994F491172752B18592552018F14F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8107FE97E29A00F5A404A6D995C9AE /* Pods-bv-ios-sdk-conversations-example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-bv-ios-sdk-conversations-example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bv-ios-sdk-conversations-example/Pods-bv-ios-sdk-conversations-example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_bv_ios_sdk_conversations_example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
-				156284431C64CB05C59BDA0595A1E95A /* Release */,
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1771,8 +1783,8 @@
 		91796AF00D9B4683CBA91610C6ABAA60 /* Build configuration list for PBXNativeTarget "Pods-bv-ios-sdk-conversations-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFA9DE2DA96508B22B3C9AE8CC548C17 /* Debug */,
-				797137A42F3F45A0DC8F3C1F0B7E8869 /* Release */,
+				4576761561A99B202F3CD2F55341D79D /* Debug */,
+				EE994F491172752B18592552018F14F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1780,8 +1792,8 @@
 		A4C1074363DF7D87ECF178212BE35542 /* Build configuration list for PBXNativeTarget "BVSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9959CE8225D21B2799CAD1C8A90BD5C0 /* Debug */,
-				27E4C67A32E162E9530675FF000BE88A /* Release */,
+				9C6C84CF75E079D5633E0576B1A91A45 /* Debug */,
+				894463052287BC30919C1FD3EF62DACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

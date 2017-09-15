@@ -20,7 +20,11 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func tappedSubmitReviews(_ sender: Any) {
-        let vc = ReviewSubmitViewController(nibName: "ReviewSubmitView", bundle: nil)
+        
+        let vc = ReviewSubmitViewController(productId: Constants.TEST_PRODUCT_ID)
         self.navigationController?.pushViewController(vc, animated: true)
+        
+
     }
+    
 }

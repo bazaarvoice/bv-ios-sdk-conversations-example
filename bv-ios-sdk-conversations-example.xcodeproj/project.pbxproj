@@ -8,30 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		59905291975AF047E4D1A54D /* Pods_bv_ios_sdk_conversations_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA27CE6B83FEB97266957DBC /* Pods_bv_ios_sdk_conversations_example.framework */; };
-		5F7F91821F4374230053FA28 /* bvsdk_config_staging.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91811F4374230053FA28 /* bvsdk_config_staging.json */; };
 		5F7F91851F4375430053FA28 /* ReviewDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F91841F4375430053FA28 /* ReviewDisplayViewController.swift */; };
 		5F7F91871F4375AC0053FA28 /* ReviewSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */; };
 		5F7F918A1F4375FA0053FA28 /* ReviewDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */; };
 		5F7F918C1F4376090053FA28 /* ReviewSubmitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */; };
-		5F7F91911F439FBA0053FA28 /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */; };
-		5F7F91931F4491D60053FA28 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */; };
 		5FDD43691F436B0700D6FA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD43681F436B0700D6FA54 /* AppDelegate.swift */; };
 		5FDD43701F436B0700D6FA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD436F1F436B0700D6FA54 /* Assets.xcassets */; };
 		5FDD437D1F436C2100D6FA54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD437C1F436C2100D6FA54 /* HomeViewController.swift */; };
 		5FDD437F1F436C5100D6FA54 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD437E1F436C5100D6FA54 /* HomeView.xib */; };
 		5FDD43811F436D9D00D6FA54 /* DemoUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD43801F436D9D00D6FA54 /* DemoUINavigationController.swift */; };
+		8789FB9A1F468AEE00C35F3C /* bvsdk_config_staging.json in Resources */ = {isa = PBXBuildFile; fileRef = 8789FB991F468AEE00C35F3C /* bvsdk_config_staging.json */; };
+		8789FB9C1F468B2600C35F3C /* bvsdk_config_prod.json in Resources */ = {isa = PBXBuildFile; fileRef = 8789FB9B1F468B2600C35F3C /* bvsdk_config_prod.json */; };
+		8789FB9F1F47101900C35F3C /* MyReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789FB9D1F47101900C35F3C /* MyReviewTableViewCell.swift */; };
+		8789FBA01F47101900C35F3C /* MyReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8789FB9E1F47101900C35F3C /* MyReviewTableViewCell.xib */; };
+		8789FBA21F471B9E00C35F3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789FBA11F471B9E00C35F3C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		566D397160C77CF364CD9644 /* Pods-bv-ios-sdk-conversations-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bv-ios-sdk-conversations-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-bv-ios-sdk-conversations-example/Pods-bv-ios-sdk-conversations-example.release.xcconfig"; sourceTree = "<group>"; };
 		5960AA861805CEEAA513B618 /* Pods-bv-ios-sdk-conversations-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bv-ios-sdk-conversations-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bv-ios-sdk-conversations-example/Pods-bv-ios-sdk-conversations-example.debug.xcconfig"; sourceTree = "<group>"; };
-		5F7F91811F4374230053FA28 /* bvsdk_config_staging.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bvsdk_config_staging.json; sourceTree = "<group>"; };
 		5F7F91841F4375430053FA28 /* ReviewDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewDisplayViewController.swift; sourceTree = "<group>"; };
 		5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewSubmitViewController.swift; sourceTree = "<group>"; };
 		5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewDisplayView.xib; sourceTree = "<group>"; };
 		5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewSubmitView.xib; sourceTree = "<group>"; };
-		5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
-		5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
 		5FDD43651F436B0700D6FA54 /* bv-ios-sdk-conversations-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bv-ios-sdk-conversations-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDD43681F436B0700D6FA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FDD436F1F436B0700D6FA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +38,11 @@
 		5FDD437C1F436C2100D6FA54 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5FDD437E1F436C5100D6FA54 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		5FDD43801F436D9D00D6FA54 /* DemoUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUINavigationController.swift; sourceTree = "<group>"; };
+		8789FB991F468AEE00C35F3C /* bvsdk_config_staging.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bvsdk_config_staging.json; sourceTree = "<group>"; };
+		8789FB9B1F468B2600C35F3C /* bvsdk_config_prod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bvsdk_config_prod.json; sourceTree = "<group>"; };
+		8789FB9D1F47101900C35F3C /* MyReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReviewTableViewCell.swift; sourceTree = "<group>"; };
+		8789FB9E1F47101900C35F3C /* MyReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyReviewTableViewCell.xib; sourceTree = "<group>"; };
+		8789FBA11F471B9E00C35F3C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AA27CE6B83FEB97266957DBC /* Pods_bv_ios_sdk_conversations_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bv_ios_sdk_conversations_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,33 +66,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F7F91831F43751A0053FA28 /* reviews */ = {
+		5F7F91831F43751A0053FA28 /* Review Display */ = {
 			isa = PBXGroup;
 			children = (
 				5F7F91841F4375430053FA28 /* ReviewDisplayViewController.swift */,
-				5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */,
 				5F7F91891F4375FA0053FA28 /* ReviewDisplayView.xib */,
-				5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */,
-				5F7F91901F439FBA0053FA28 /* ReviewTableViewCell.xib */,
-				5F7F91921F4491D60053FA28 /* ReviewTableViewCell.swift */,
+				8789FB9D1F47101900C35F3C /* MyReviewTableViewCell.swift */,
+				8789FB9E1F47101900C35F3C /* MyReviewTableViewCell.xib */,
 			);
-			name = reviews;
+			name = "Review Display";
 			sourceTree = "<group>";
 		};
-		5F7F918D1F4383370053FA28 /* home */ = {
+		5F7F918D1F4383370053FA28 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				5FDD437C1F436C2100D6FA54 /* HomeViewController.swift */,
 				5FDD437E1F436C5100D6FA54 /* HomeView.xib */,
 				5FDD43801F436D9D00D6FA54 /* DemoUINavigationController.swift */,
 			);
-			name = home;
+			name = Home;
 			sourceTree = "<group>";
 		};
 		5FDD435C1F436B0700D6FA54 = {
 			isa = PBXGroup;
 			children = (
-				5F7F91811F4374230053FA28 /* bvsdk_config_staging.json */,
+				8789FB9B1F468B2600C35F3C /* bvsdk_config_prod.json */,
+				8789FB991F468AEE00C35F3C /* bvsdk_config_staging.json */,
 				5FDD43671F436B0700D6FA54 /* bv-ios-sdk-conversations-example */,
 				5FDD43661F436B0700D6FA54 /* Products */,
 				E8257CEC6C7DB6E3A7C1C27C /* Pods */,
@@ -107,13 +110,24 @@
 		5FDD43671F436B0700D6FA54 /* bv-ios-sdk-conversations-example */ = {
 			isa = PBXGroup;
 			children = (
-				5F7F918D1F4383370053FA28 /* home */,
-				5F7F91831F43751A0053FA28 /* reviews */,
+				8789FBA11F471B9E00C35F3C /* Constants.swift */,
 				5FDD43681F436B0700D6FA54 /* AppDelegate.swift */,
+				5F7F918D1F4383370053FA28 /* Home */,
+				8789FBA31F4722BF00C35F3C /* Review Submission */,
+				5F7F91831F43751A0053FA28 /* Review Display */,
 				5FDD436F1F436B0700D6FA54 /* Assets.xcassets */,
 				5FDD43741F436B0700D6FA54 /* Info.plist */,
 			);
 			path = "bv-ios-sdk-conversations-example";
+			sourceTree = "<group>";
+		};
+		8789FBA31F4722BF00C35F3C /* Review Submission */ = {
+			isa = PBXGroup;
+			children = (
+				5F7F91861F4375AC0053FA28 /* ReviewSubmitViewController.swift */,
+				5F7F918B1F4376090053FA28 /* ReviewSubmitView.xib */,
+			);
+			name = "Review Submission";
 			sourceTree = "<group>";
 		};
 		E8257CEC6C7DB6E3A7C1C27C /* Pods */ = {
@@ -188,12 +202,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8789FB9C1F468B2600C35F3C /* bvsdk_config_prod.json in Resources */,
 				5FDD437F1F436C5100D6FA54 /* HomeView.xib in Resources */,
 				5F7F918C1F4376090053FA28 /* ReviewSubmitView.xib in Resources */,
 				5F7F918A1F4375FA0053FA28 /* ReviewDisplayView.xib in Resources */,
 				5FDD43701F436B0700D6FA54 /* Assets.xcassets in Resources */,
-				5F7F91911F439FBA0053FA28 /* ReviewTableViewCell.xib in Resources */,
-				5F7F91821F4374230053FA28 /* bvsdk_config_staging.json in Resources */,
+				8789FBA01F47101900C35F3C /* MyReviewTableViewCell.xib in Resources */,
+				8789FB9A1F468AEE00C35F3C /* bvsdk_config_staging.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F7F91851F4375430053FA28 /* ReviewDisplayViewController.swift in Sources */,
-				5F7F91931F4491D60053FA28 /* ReviewTableViewCell.swift in Sources */,
 				5FDD43811F436D9D00D6FA54 /* DemoUINavigationController.swift in Sources */,
 				5FDD43691F436B0700D6FA54 /* AppDelegate.swift in Sources */,
 				5F7F91871F4375AC0053FA28 /* ReviewSubmitViewController.swift in Sources */,
+				8789FBA21F471B9E00C35F3C /* Constants.swift in Sources */,
+				8789FB9F1F47101900C35F3C /* MyReviewTableViewCell.swift in Sources */,
 				5FDD437D1F436C2100D6FA54 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
