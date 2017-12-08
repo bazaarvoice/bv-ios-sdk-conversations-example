@@ -1,6 +1,0 @@
-framework module Pods_bv_ios_sdk_conversations_example {
-  umbrella header "Pods-bv-ios-sdk-conversations-example-umbrella.h"
-
-  export *
-  module * { export * }
-}
