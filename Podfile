@@ -4,5 +4,6 @@ platform :ios, '9.0'
 target 'bv-ios-sdk-conversations-example' do
 	use_frameworks! # For swift
 	pod 'BVSDK/BVConversations'
+	pod 'BVSDK/BVConversationsStores'
 	pod 'BVSDK/BVConversationsUI'
 end
